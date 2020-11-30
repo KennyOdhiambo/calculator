@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(84, 190, 231);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    height: 50x;
+    width: 800px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Kanit', sans-serif;
+}
+
+footer {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+    outline: none;
+}
+
+#calc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 30px 40px 40px 40px 40px;
+    border: 3px solid rgb(36, 69, 214);
+    width: 310px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    background-color: rgb(185, 50, 26);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px;
+}
+
+.display {
+    background-color: rgb(184, 184, 184);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-style: solid;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+    height: 45px;
+    box-shadow: inset 2px 2px;
+    overflow: hidden;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+.number {
+    background-color: rgb(236, 238, 237);
+    font-size: 20px;
+    height: 40px;
+    margin: 2px;
+}
+
+.operator {
+    background-color: rgb(67, 215, 47);
+    font-size: 20px;
+    height: 40px;
+    margin: 2px;
+}
+
+.equal {
+    background-color: rgb(67, 215, 47);
+    font-size: 20px;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    margin: 2px;
+}
+
+.clear {
+    background-color: rgb(67, 215, 47);
+    font-size: 20px;
+    height: 40px;
+    margin: 2px;
+}
+
+.decimal {
+    background-color: rgb(236, 238, 237);
+    font-size: 20px;
+    height: 40px;
+    margin: 2px;
+}
+
+.plus-minus {
+    background-color: rgb(236, 238, 237);
+    font-size: 20px;
+    height: 40px;
+    margin: 2px;
+}
+
+.backspace {
+    background-color: rgb(219, 13, 13);
+    font-size: 20px;
+    height: 40px;
+    margin: 2px;
+}
+
+button:active {
+    box-shadow: 0px;
+    background-color: rgb(200, 200, 200);
+}
+
+.clear:active {
+    background-color: rgb(180, 17, 30);
+}
+
+.backspace:active {
+    background-color: rgb(180, 17, 30);
+}
+
+.operator:active {
+    background-color: rgb(180, 17, 30);
+}
+
+.equal:hover {
+    background-color: rgb(180, 17, 30)
+}
